@@ -1,0 +1,239 @@
+PowerPlay Early Power Estimator File Generator report for leon3mp
+Mon May  7 03:13:53 2018
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Parallel Compilation
+  3. PowerPlay Early Power Estimator File Generator Summary
+  4. PowerPlay Early Power Estimator File Generator Settings
+  5. Indeterminate Toggle Rates
+  6. PowerPlay Early Power Estimator File Generator Generated Files
+  7. Confidence Metric Details
+  8. Signal Activities
+  9. PowerPlay Early Power Estimator File Generator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 8           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 8           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-8         ; < 0.1%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------+
+; PowerPlay Early Power Estimator File Generator Summary                                                   ;
++-------------------------------------------------------+--------------------------------------------------+
+; PowerPlay Early Power Estimator File Generator Status ; Successful - Mon May  7 03:13:53 2018            ;
+; Quartus II 64-Bit Version                             ; 15.0.0 Build 145 04/22/2015 SJ Web Edition       ;
+; Revision Name                                         ; leon3mp                                          ;
+; Top-level Entity Name                                 ; leon3mp                                          ;
+; Family                                                ; Cyclone IV E                                     ;
+; Device                                                ; EP4CE115F29C7                                    ;
+; Power Estimation Confidence                           ; Low: user provided insufficient toggle rate data ;
++-------------------------------------------------------+--------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; PowerPlay Early Power Estimator File Generator Settings                                                                            ;
++----------------------------------------------------------------------------+---------------------------------------+---------------+
+; Option                                                                     ; Setting                               ; Default Value ;
++----------------------------------------------------------------------------+---------------------------------------+---------------+
+; Use smart compilation                                                      ; On                                    ; Off           ;
+; Maximum processors allowed for parallel compilation                        ; All                                   ;               ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                                    ; On            ;
+; Enable compact report table                                                ; Off                                   ; Off           ;
+; Preset Cooling Solution                                                    ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ;               ;
+; Board thermal model                                                        ; None (CONSERVATIVE)                   ;               ;
+; Default Power Toggle Rate                                                  ; 12.5%                                 ; 12.5%         ;
+; Default Power Input I/O Toggle Rate                                        ; 12.5%                                 ; 12.5%         ;
+; Use vectorless estimation                                                  ; On                                    ; On            ;
+; Use Input Files                                                            ; Off                                   ; Off           ;
+; Filter Glitches in VCD File Reader                                         ; On                                    ; On            ;
+; Power Analyzer Report Signal Activity                                      ; Off                                   ; Off           ;
+; Power Analyzer Report Power Dissipation                                    ; Off                                   ; Off           ;
+; Device Power Characteristics                                               ; TYPICAL                               ; TYPICAL       ;
+; Automatically Compute Junction Temperature                                 ; On                                    ; On            ;
+; Specified Junction Temperature                                             ; 25                                    ; 25            ;
+; Ambient Temperature                                                        ; 25                                    ; 25            ;
+; Use Custom Cooling Solution                                                ; Off                                   ; Off           ;
+; Board Temperature                                                          ; 25                                    ; 25            ;
++----------------------------------------------------------------------------+---------------------------------------+---------------+
+
+
++------------------------------------------+
+; Indeterminate Toggle Rates               ;
++------------+-----------------------------+
+; Node       ; Reason                      ;
++------------+-----------------------------+
+; can_rxd[0] ; No valid clock domain found ;
+; sw[2]      ; No valid clock domain found ;
+; sw[3]      ; No valid clock domain found ;
+; sw[4]      ; No valid clock domain found ;
+; sw[5]      ; No valid clock domain found ;
+; sw[6]      ; No valid clock domain found ;
+; sw[7]      ; No valid clock domain found ;
+; sw[8]      ; No valid clock domain found ;
+; sw[9]      ; No valid clock domain found ;
+; sw[10]     ; No valid clock domain found ;
+; sw[11]     ; No valid clock domain found ;
+; sw[12]     ; No valid clock domain found ;
+; sw[13]     ; No valid clock domain found ;
+; sw[14]     ; No valid clock domain found ;
+; sw[15]     ; No valid clock domain found ;
+; sw[16]     ; No valid clock domain found ;
+; resetn     ; No valid clock domain found ;
++------------+-----------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; PowerPlay Early Power Estimator File Generator Generated Files                         ;
++----------------------------------------------------------------+-----------------------+
+; Description                                                    ; Filename              ;
++----------------------------------------------------------------+-----------------------+
+; Design summary for PowerPlay Early Power Estimator spreadsheet ; leon3mp_early_pwr.csv ;
++----------------------------------------------------------------+-----------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Confidence Metric Details                                                                                                                              ;
++----------------------------------------------------------------------------------------+---------------+-------------+----------------+----------------+
+; Data Source                                                                            ; Total         ; Pin         ; Registered     ; Combinational  ;
++----------------------------------------------------------------------------------------+---------------+-------------+----------------+----------------+
+; Simulation (from file)                                                                 ;               ;             ;                ;                ;
+;     -- Number of signals with Toggle Rate from Simulation                              ; 0 (0.0%)      ; 0 (0.0%)    ; 0 (0.0%)       ; 0 (0.0%)       ;
+;     -- Number of signals with Static Probability from Simulation                       ; 0 (0.0%)      ; 0 (0.0%)    ; 0 (0.0%)       ; 0 (0.0%)       ;
+;                                                                                        ;               ;             ;                ;                ;
+; Node, entity or clock assignment                                                       ;               ;             ;                ;                ;
+;     -- Number of signals with Toggle Rate from Node, entity or clock assignment        ; 7 (0.0%)      ; 5 (1.8%)    ; 0 (0.0%)       ; 2 (0.0%)       ;
+;     -- Number of signals with Static Probability from Node, entity or clock assignment ; 7 (0.0%)      ; 5 (1.8%)    ; 0 (0.0%)       ; 2 (0.0%)       ;
+;                                                                                        ;               ;             ;                ;                ;
+; Vectorless estimation                                                                  ;               ;             ;                ;                ;
+;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 97891 (99.9%) ; 167 (59.4%) ; 30521 (100.0%) ; 67203 (100.0%) ;
+;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 123 (0.1%)    ; 12 (4.3%)   ; 9 (0.0%)       ; 102 (0.2%)     ;
+;     -- Number of signals with Static Probability from Vectorless estimation            ; 97891 (99.9%) ; 167 (59.4%) ; 30521 (100.0%) ; 67203 (100.0%) ;
+;                                                                                        ;               ;             ;                ;                ;
+; Default assignment                                                                     ;               ;             ;                ;                ;
+;     -- Number of signals with Toggle Rate from Default assignment                      ; 89 (0.1%)     ; 89 (31.7%)  ; 0 (0.0%)       ; 0 (0.0%)       ;
+;     -- Number of signals with Static Probability from Default assignment               ; 109 (0.1%)    ; 109 (38.8%) ; 0 (0.0%)       ; 0 (0.0%)       ;
+;                                                                                        ;               ;             ;                ;                ;
+; Assumed 0                                                                              ;               ;             ;                ;                ;
+;     -- Number of signals with Toggle Rate assumed 0                                    ; 20 (0.0%)     ; 20 (7.1%)   ; 0 (0.0%)       ; 0 (0.0%)       ;
++----------------------------------------------------------------------------------------+---------------+-------------+----------------+----------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Activities                                                                                                                           ;
++--------+------+---------------------------------------------+-------------------------+--------------------+--------------------------------+
+; Signal ; Type ; Toggle Rate (millions of transitions / sec) ; Toggle Rate Data Source ; Static Probability ; Static Probability Data Source ;
++--------+------+---------------------------------------------+-------------------------+--------------------+--------------------------------+
+(1) The "Signal Activity" Table has been hidden. To show this table, please select the "Write signal activities to report file" option under "PowerPlay Power Analyzer Settings".
+
+
++---------------------------------------------------------+
+; PowerPlay Early Power Estimator File Generator Messages ;
++---------------------------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit PowerPlay Early Power Estimator File Generator
+    Info: Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
+    Info: Processing started: Mon May  7 03:13:19 2018
+Info: Command: quartus_pow --read_settings_files=on --write_settings_files=off leon3mp -c leon3mp --estimate_power=off --output_epe=leon3mp_early_pwr.csv
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Warning (335093): TimeQuest Timing Analyzer is analyzing 2 combinational loops as latches.
+Info (332164): Evaluating HDL-embedded SDC commands
+    Info (332165): Entity sld_hub
+        Info (332166): create_clock -name altera_reserved_tck [get_ports {altera_reserved_tck}] -period 10MHz   
+        Info (332166): set_clock_groups -asynchronous -group {altera_reserved_tck}
+Info (332104): Reading SDC File: 'quartus.sdc'
+Info (332110): Deriving PLL clocks
+    Info (332110): create_generated_clock -source {clkgen0|\cyc3:v|sdclk_pll|\sden:altpll0|auto_generated|pll1|inclk[0]} -duty_cycle 50.00 -name {clkgen0|\cyc3:v|sdclk_pll|\sden:altpll0|auto_generated|pll1|clk[0]} {clkgen0|\cyc3:v|sdclk_pll|\sden:altpll0|auto_generated|pll1|clk[0]}
+    Info (332110): create_generated_clock -source {clkgen0|\cyc3:v|sdclk_pll|\sden:altpll0|auto_generated|pll1|inclk[0]} -duty_cycle 50.00 -name {clkgen0|\cyc3:v|sdclk_pll|\sden:altpll0|auto_generated|pll1|clk[1]} {clkgen0|\cyc3:v|sdclk_pll|\sden:altpll0|auto_generated|pll1|clk[1]}
+Info (332151): Clock uncertainty is not calculated until you update the timing netlist.
+Warning (332054): Assignment set_input_delay is accepted but has some problems at quartus.sdc(52): Positional argument <targets> with value [get_ports {dram_dq*}]: Port dram_dqm[0] is not an input port.
+    Info (332050): set_input_delay -clock CLOCK_50 2.0 [get_ports dram_dq*]
+Warning (332054): Assignment set_input_delay is accepted but has some problems at quartus.sdc(52): Positional argument <targets> with value [get_ports {dram_dq*}]: Port dram_dqm[1] is not an input port.
+Warning (332054): Assignment set_input_delay is accepted but has some problems at quartus.sdc(52): Positional argument <targets> with value [get_ports {dram_dq*}]: Port dram_dqm[2] is not an input port.
+Warning (332054): Assignment set_input_delay is accepted but has some problems at quartus.sdc(52): Positional argument <targets> with value [get_ports {dram_dq*}]: Port dram_dqm[3] is not an input port.
+Warning (332054): Assignment set_output_delay is accepted but has some problems at quartus.sdc(58): Positional argument <targets> with value [get_ports {enet0_tx_*}]: Port enet0_tx_clk is not an output port.
+    Info (332050): set_output_delay -clock ENET0_TX_CLK 10.0 [get_ports enet0_tx_*]
+Warning (332125): Found combinational loop of 28 nodes
+    Warning (332126): Node "\mctrl0:sr1|sdi.hsel~3|combout"
+    Warning (332126): Node "ahb0|nhmaster~10|datad"
+    Warning (332126): Node "ahb0|nhmaster~10|combout"
+    Warning (332126): Node "ahb0|Decoder0~16|dataa"
+    Warning (332126): Node "ahb0|Decoder0~16|combout"
+    Warning (332126): Node "ahb0|Mux33~1|datab"
+    Warning (332126): Node "ahb0|Mux33~1|combout"
+    Warning (332126): Node "ahb0|Mux33~4|datac"
+    Warning (332126): Node "ahb0|Mux33~4|combout"
+    Warning (332126): Node "ahb0|nhmaster~10_RESYN35066|dataa"
+    Warning (332126): Node "ahb0|nhmaster~10_RESYN35066|combout"
+    Warning (332126): Node "ahb0|nhmaster~10|dataa"
+    Warning (332126): Node "ahb0|nhmaster~10_RESYN35062|datab"
+    Warning (332126): Node "ahb0|nhmaster~10_RESYN35062|combout"
+    Warning (332126): Node "ahb0|nhmaster~10_RESYN35068|datac"
+    Warning (332126): Node "ahb0|nhmaster~10_RESYN35068|combout"
+    Warning (332126): Node "ahb0|nhmaster~10|datac"
+    Warning (332126): Node "ahb0|nhmaster~10_RESYN35054|dataa"
+    Warning (332126): Node "ahb0|nhmaster~10_RESYN35054|combout"
+    Warning (332126): Node "ahb0|nhmaster~10_RESYN35062|datac"
+    Warning (332126): Node "ptag_handler_inst|ahbo_out.htrans[1]~0|datad"
+    Warning (332126): Node "ptag_handler_inst|ahbo_out.htrans[1]~0|combout"
+    Warning (332126): Node "ahb0|Mux32~0|dataa"
+    Warning (332126): Node "ahb0|Mux32~0|combout"
+    Warning (332126): Node "\mctrl0:sr1|sdi.hsel~3|dataa"
+    Warning (332126): Node "ahb0|nhmaster~14|datab"
+    Warning (332126): Node "ahb0|nhmaster~14|combout"
+    Warning (332126): Node "ahb0|Decoder0~16|datac"
+Warning (332060): Node: security_engine:security_inst|fuzzy_extractor:fuzzy_instance|apuf:Arbiter_PUF1|clk1 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register security_engine:security_inst|fuzzy_extractor:fuzzy_instance|apuf:Arbiter_PUF1|\flipflop_generation:30:dff_inst~_emulated is being clocked by security_engine:security_inst|fuzzy_extractor:fuzzy_instance|apuf:Arbiter_PUF1|clk1
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Info (223000): Starting Vectorless Power Activity Estimation
+Warning (222013): Relative toggle rates could not be calculated because no clock domain could be identified for some nodes
+Info (223001): Completed Vectorless Power Activity Estimation
+Info (218000): Using Advanced I/O Power to simulate I/O buffers with the specified board trace model
+Info (214002): Created PowerPlay Early Power Estimation file "leon3mp_early_pwr.csv"
+Info (215029): No power estimate will be produced.
+Info (215049): Average toggle rate for this design is 6.445 millions of transitions / sec
+Info: Quartus II 64-Bit PowerPlay Early Power Estimator File Generator was successful. 0 errors, 37 warnings
+    Info: Peak virtual memory: 1895 megabytes
+    Info: Processing ended: Mon May  7 03:13:54 2018
+    Info: Elapsed time: 00:00:35
+    Info: Total CPU time (on all processors): 00:00:34
+
+

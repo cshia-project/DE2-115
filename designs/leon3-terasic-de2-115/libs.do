@@ -1,0 +1,15 @@
+vlib modelsim
+vlib modelsim/grlib 
+vlib modelsim/altera 
+vlib modelsim/altera_mf 
+vlib modelsim/cycloneiii 
+vlib modelsim/dware 
+vlib modelsim/synplify 
+vlib modelsim/techmap 
+vlib modelsim/spw 
+vlib modelsim/eth 
+vlib modelsim/opencores 
+vlib modelsim/gaisler 
+vlib modelsim/esa 
+vlib modelsim/micron 
+vlib modelsim/work 

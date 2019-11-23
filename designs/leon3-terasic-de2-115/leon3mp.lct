@@ -1,0 +1,8 @@
+[Device]
+Family = ;
+PartNumber = EP4CE115-7FC29;
+Package = ;
+PartType = EP4CE115;
+Speed = -7;
+Operating_condition = COM;
+Status = Production;

@@ -1,0 +1,1 @@
+grlib altera altera_mf cycloneiii dware synplify techmap spw eth opencores gaisler esa micron work 

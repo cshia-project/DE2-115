@@ -1,0 +1,9 @@
+db
+incremental_db
+./memory/greybox_tmp
+./cshia/greybox_tmp
+./cshia/greybox_tmp/greybox_tmp
+./greybox_tmp
+ProbeTree
+ProbeTree.qsys
+ProbeTree.sopcinfo

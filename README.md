@@ -1,2 +1,2 @@
 # DE2-115
-CSHIA for DE2-115. Working on grlib-gpl-1.1.0-b4108
+CSHIA for a particular GRLIB and DE2-115

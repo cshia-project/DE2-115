@@ -1,0 +1,5 @@
+PLL_Name	clkgen:clkgen0|clkgen_cycloneiii:\cyc3:v|cyclone3_pll:sdclk_pll|altpll:\sden:altpll0|altpll_in31:auto_generated|pll1
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+
